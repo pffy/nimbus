@@ -17,7 +17,7 @@
   "options_page": "html/opts.html",
 
   "action": {
-    "default_title": "i/o module",
+    "default_title": "Open nimbus",
     "default_icon": {
       "16": "/icon/icon16.png",
       "32": "/icon/icon32.png",
