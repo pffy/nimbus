@@ -4,3 +4,6 @@
 [submodule "src/icon"]
 	path = src/icon
 	url = https://github.com/pffy/icon-miniset
+[submodule "src/idx"]
+	path = src/idx
+	url = https://github.com/pffy/idx
