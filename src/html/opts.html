@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
-<head><title>My Test Extension Options</title>
+<head><title>Nimbus</title>
 <link rel="stylesheet" href="/css-google-addon/style.css">
 <link rel="stylesheet" href="/css/ext.css">
 </head>
 <body>
-<h1>generic i/o module</h1>
-
-Favorite color:
-<select id="color">
- <option value="red">red</option>
- <option value="green">green</option>
- <option value="blue">blue</option>
- <option value="yellow">yellow</option>
-</select>
-
-<label>
-  <input type="checkbox" id="like">
-  I like colors.
-</label>
+<h1>nimbus: hanzitopinyin-text</h1>
 
 <div id="status"></div>
+<div id="msgbox"></div>
 <!--
 // commented out to implement autosave
 <button class="action" id="save">Save</button>
 -->
 <table>
   <tr>
-    <td><button class="action" id="convert">CONVERT</button></td>
-    <td align="right"><button id="download">Download</button>
+    <td>
+
+Pinyin:
+<select id="pinyin">
+ <option value="hp">tone numbers</option>
+ <option value="hpt">tone marks</option>
+ <option value="hpti">ISO-compliant tone marks</option>
+ <option value="hpn">no tones</option>
+</select> <a id="sample_text" href="javascript:;">sample text</a>
+      <!--
+      <button class="action" id="convert">CONVERT</button>
+    -->
+
+    </td>
+    <td align="right"><button id="download">Download as TXT</button>
     </td>
   </tr>
   <tr>
-    <td><textarea id="tinput">left</textarea></td>
-    <td><textarea id="toutput" readonly>right</textarea></td>
+    <td><textarea class="kaiti" id="tinput"></textarea></td>
+    <td><textarea id="toutput" readonly></textarea></td>
   </tr>
 </table>
 
 <p>
-Copyright &copy 2022 | about | terms | licenses
+
+The Pffy Authors &copy; 2022<br/>
+about | <a target="_blank" href="https://a.pffy.dev/about/privacy">privacy</a> | terms | licenses
 </p>
 
 <script src="/js/opts.js"></script>
