@@ -1,11 +1,11 @@
 {
   "name": "nimbus",
-  "short_name": "nimbus (pffy.cloud.ravioli)",  
-  
-  "version": "0.1",
-  "version_name": "v0.1 (nothing yet)",  
+  "short_name": "nimbus (pffy.cloud.ravioli)",
 
-  "description": "nothing yet",
+  "version": "0.1",
+  "version_name": "v0.1 (nothing yet)",
+
+  "description": "text hanzitopinyin test rig (pffy.cloud.ravioli)",
 
   "icons": {
     "16": "icon/icon16.png",
