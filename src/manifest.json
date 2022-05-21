@@ -1,11 +1,11 @@
 {
-  "name": "chrome-ext-io",
-  "short_name": "io (namespace)",  
+  "name": "nimbus",
+  "short_name": "nimbus (pffy.cloud.ravioli)",  
   
   "version": "0.1",
-  "version_name": "v0.1 (mnemonics)",  
+  "version_name": "v0.1 (nothing yet)",  
 
-  "description": "chrome ext template for i/o modules",
+  "description": "nothing yet",
 
   "icons": {
     "16": "icon/icon16.png",
