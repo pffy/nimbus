@@ -1,0 +1,44 @@
+{
+  "name": "chrome-ext-io",
+  "short_name": "io (namespace)",  
+  
+  "version": "0.1",
+  "version_name": "v0.1 (mnemonics)",  
+
+  "description": "chrome ext template for i/o modules",
+
+  "icons": {
+    "16": "icon/icon16.png",
+    "32": "icon/icon32.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+
+  "options_page": "html/opts.html",
+
+  "action": {
+    "default_title": "i/o module",
+    "default_icon": {
+      "16": "/icon/icon16.png",
+      "32": "/icon/icon32.png",
+      "48": "/icon/icon48.png",
+      "128": "/icon/icon128.png"
+    }
+  },
+
+  "background": {
+    "service_worker": "js/bg.js"
+  },
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads"
+  ],
+
+  "manifest_version": 3
+}

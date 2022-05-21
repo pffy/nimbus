@@ -1,0 +1,6 @@
+[submodule "src/css-google-addon"]
+	path = src/css-google-addon
+	url = https://github.com/pffy/css-google-addon
+[submodule "src/icon"]
+	path = src/icon
+	url = https://github.com/pffy/icon-miniset

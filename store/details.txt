@@ -1,0 +1,8 @@
+DETAILS
+-------
+
+This is a Chrome extension template for creating
+input/output (i/o) modules for tasks such as 
+conversion or analysis.
+
+This is a generic template.

@@ -1,0 +1,18 @@
+body {
+  margin: 10px;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 24pt;
+  font-weight: 900;
+}
+
+textarea {
+  color: navy;
+  font-weight: 900;
+  background-color: lightgreen;
+  width: 350px;
+  height: 130px;
+  margin-right: 5px;
+}
