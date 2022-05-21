@@ -1,6 +1,6 @@
 # nimbus
 
-This is a test rig for text Hanzi-to-Pinyin conversion.
+This Google Chrome extension is a test rig for text Hanzi-to-Pinyin conversion.
 
 ## Features
   + Save/export converted text to a plain text file
