@@ -209,12 +209,25 @@ function copy_text(){
 }
 
 function insert_sample_text() {
-  const str = `你好
-  你好
-  你好
-  `;
+  const str = sample_text_shi();
   document.getElementById('tinput').value = clean(str);
   convert_text();
+}
+
+function sample_text_shi() {
+  return `
+《施氏食獅史》
+石室詩士施氏，嗜獅，誓食十獅。
+氏時時適市視獅。
+十時，適十獅適市。
+是時，適施氏適市。
+氏視是十獅，恃矢勢，使是十獅逝世。
+氏拾是十獅屍，適石室。
+石室濕，氏使侍拭石室。
+石室拭，氏始試食是十獅。
+食時，始識是十獅屍，實十石獅屍。
+試釋是事。
+  `;
 }
 
 
