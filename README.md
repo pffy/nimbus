@@ -2,6 +2,9 @@
 
 This Google Chrome extension is a test rig for text Hanzi-to-Pinyin conversion.
 
+![nimbus-box-sizes](https://user-images.githubusercontent.com/50888935/169673799-88d97c34-e379-4149-852c-186176f8e431.png)
+
+
 ## Features
   + Save/export converted text to a plain text file
     + Downloads to text file
