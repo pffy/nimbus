@@ -20,20 +20,21 @@ h1 {
 textarea {
   color: navy;
   background-color: lightgreen;
-  width: 350px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   margin-right: 5px;
   font-size: 14pt;
   font-family: Helvetica;
 }
 
 #tinput {
+  width: 425px;
   font-size: 16pt;
-  font-family: chinese;
+  font-family: fangsong;
 }
 
 #toutput {
-  font-weight: 900;
+  width: 625px;
 }
 
 #msgbox {
@@ -55,4 +56,3 @@ textarea {
 .kaiti {
   font-family: "WenQuanYi Micro Hei", "UKai", "STKaiTi", "KaiTi";
 }
-
